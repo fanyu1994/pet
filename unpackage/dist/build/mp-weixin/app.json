@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/main/main",
+    "pages/item/item",
+    "pages/shoppingCar/shoppingCar",
+    "pages/search/search"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#ffb533",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "iconPath": "static/tabBar/item1.png",
+        "selectedIconPath": "static/tabBar/item.png",
+        "text": "主会场"
+      },
+      {
+        "pagePath": "pages/shoppingCar/shoppingCar",
+        "iconPath": "static/tabBar/all1.png",
+        "selectedIconPath": "static/tabBar/all.png",
+        "text": "购物车"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "部分功能需要获取您的位置信息"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

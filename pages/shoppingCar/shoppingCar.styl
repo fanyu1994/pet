@@ -1,0 +1,124 @@
+.navigationBar
+	width 100%
+	height 64px
+	background-image linear-gradient(to right, #FF1493, #FF8C69)
+	position fixed
+	top 0
+	z-index 9
+	.navigationBar_title
+		position absolute
+		left 50%
+		top 50%
+		transform translate(-50%,-50%)
+.shop_bg
+	width 750rpx
+	height 500px
+	position relative
+	.shop_bg_img,.shop_bg_text
+		width 200px
+		position absolute
+		left 50%
+		top 50%
+		transform translate(-50%,-50%)
+	.shop_bg_text
+		padding 0 4px
+		width 208px
+		text-align center
+		font-size 13px
+		top 80%
+		box-shadow 3px 3px 3px black
+		border-radius 1px
+		.shop_bg_text_img
+			width 20px
+			position absolute
+			right -35px 
+			top 0
+.shop_main
+	padding 20px
+	margin-top 64px
+	.shop_item
+		margin-bottom 20px
+		padding 20px 10px
+		border-radius 10px
+		box-shadow 0 0 5px black
+		background-color white
+		display flex
+		flex-flow row nowrap
+		position relative
+		.item_tf
+			width 50px
+			height 50px
+			position absolute
+			top 0
+			right 0
+			.item_t,.item_f
+				width 15px
+				height 15px
+				border-radius 50%
+				background-color #FF1493
+				position absolute
+				top 10rpx
+				right 10rpx
+			.item_f
+				background-color #b8b8b8		
+		.shop_item_img
+			width 300rpx
+			border-radius 10px
+		.shop_item_right
+			flex 1
+			padding 10px
+			font-size 14px
+.shop_foot
+	width 100%
+	height 50px
+	position fixed
+	bottom 2px
+	background-color white
+	.shop_foot_title
+		position absolute
+		right 0
+		top -40px
+		background-color white
+		border-radius 10px 10px 0 0
+		width 160rpx
+		height 40px
+		text-align center
+		line-height 40px
+	.re_t,.re_f,.pay_t,.pay_f
+		width 15px
+		height 15px
+		border-radius 50%
+		background-color #FF1493
+		position absolute
+		top 50%
+		left 20rpx
+		transform translateY(-50%)
+	.re_f,.pay_f
+		background-color #b8b8b8
+	.shop_remove_all,.shop_pay_select
+		position absolute
+		top 50%
+		left 60rpx
+		transform translateY(-50%)
+	.shop_remove_re_t,.shop_remove_re_f,.shop_pay_re_t,.shop_pay_re_f
+		position absolute
+		top 50%
+		right 20rpx
+		transform translateY(-50%)
+		width 160rpx
+		height 40px
+		text-align center
+		line-height 40px
+		background-color #eb374c
+		border-radius 10rpx
+	.shop_remove_re_f,.shop_pay_re_f	
+		background-color #b8b8b8
+	.shop_pay_re_t
+		background-color #eb374c
+	.shop_pay_price
+		position absolute
+		top 50%
+		right 220rpx
+		transform translateY(-50%)
+		.shop_pay_price_red
+			color red

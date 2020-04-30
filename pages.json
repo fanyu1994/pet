@@ -1,0 +1,58 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "萌宠趣"
+			}
+		},
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "萌宠趣"
+			}
+		},
+		{
+			"path": "pages/item/item",
+			"style": {
+				"navigationBarTitleText": "萌宠趣"
+			}
+		},
+		{
+			"path": "pages/shoppingCar/shoppingCar",
+			"style": {
+				"navigationBarTitleText": "萌宠趣"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "萌宠趣"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom"
+	},
+	"tabBar":{
+		"color": "#7A7E83",
+		    "selectedColor": "#ffb533",
+		    "borderStyle": "black",
+		    "backgroundColor": "#ffffff",
+		    "list": [{
+		        "pagePath": "pages/main/main",
+		        "iconPath": "static/tabBar/item1.png",
+		        "selectedIconPath": "static/tabBar/item.png",
+		        "text": "主会场"
+		    }, {
+		        "pagePath": "pages/shoppingCar/shoppingCar",
+		        "iconPath": "static/tabBar/all1.png",
+		        "selectedIconPath": "static/tabBar/all.png",
+		        "text": "购物车"
+		    }]
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "萌宠趣",
+  "usingComponents": {
+    "pay": "/components/pay"
+  }
+}
